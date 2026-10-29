@@ -37,10 +37,9 @@ git config user.email
 ```
 
 ### Step 2: Clone the Team Repository
-*(Get the repository URL from your Team Leader)*
 ```bash
-git clone https://github.com/<team-leader-username>/student-information-system-groupname.git
-cd student-information-system-groupname
+git clone https://github.com/yadaklinus/Group1_Management_System.git
+cd Group1_Management_System
 ```
 
 ### Step 3: Verify the Remote Connection
@@ -55,12 +54,12 @@ git status
 
 | Role | Student Name | Matric / Reg Number | Assigned Feature | Target Branch Name |
 | :--- | :--- | :--- | :--- | :--- |
-| **Member A** | *[Name A]* | *[REG/01]* | Student Registration Form | `feature/student-registration-<REG/01>` |
-| **Member B** | *[Name B]* | *[REG/02]* | Student Records Table | `feature/student-records-table-<REG/02>` |
-| **Member C** | *[Name C]* | *[REG/03]* | Table CSS Styling | `feature/table-styling-<REG/03>` |
-| **Member D** | *[Name D]* | *[REG/04]* | Form CSS Styling | `feature/form-styling-<REG/04>` |
-| **Member E** | *[Name E]* *(Team Leader)* | *[REG/05]* | Docs, PR Review & Integration | `feature/project-docs-<REG/05>` |
-| **Member F** | *[Name F]* *(Optional 6th)* | *[REG/06]* | QA & README Updates | `feature/readme-qa-<REG/06>` |
+| **Member A** | Team Member A | `NEU/23/24/SEN/00492` | Student Registration Form | `feature/student-registration-NEU/23/24/SEN/00492` |
+| **Member B** | Team Member B | `NEU/23/24/SEN/00547` | Student Records Table | `feature/student-records-table-NEU/23/24/SEN/00547` |
+| **Member C** | Team Member C | `NEU/23/24/SEN/00409` | Table CSS Styling | `feature/table-styling-NEU/23/24/SEN/00409` |
+| **Member D** | Team Member D | `NEU/23/24/SEN/00577` | Form CSS Styling | `feature/form-styling-NEU/23/24/SEN/00577` |
+| **Member E** | Team Leader | `NEU/23/24/SEN/00442` | Docs, PR Review & Integration | `feature/project-docs-NEU/23/24/SEN/00442` |
+| **Member F** | QA & Verification | `NEU/23/24/SEN/00588` | QA, Testing & Checklist | `feature/qa-docs-NEU/23/24/SEN/00588` |
 
 ---
 
@@ -75,9 +74,8 @@ git status
    ```
 2. Create and switch to your personal feature branch using your **Registration Number**:
    ```bash
-   git switch -c feature/student-registration-NEU/22/23/CSC/2004
+   git switch -c feature/student-registration-NEU/23/24/SEN/00492
    ```
-   *(Replace `NEU/22/23/CSC/2004` with your real registration number)*
 3. **Work on the feature:**
    - Open `index.html` and inspect `#registration-section`. Ensure student name, matriculation number, and programme dropdown inputs exist.
    - Open `script.js` and verify/enhance `validateRegistrationForm()` and the form submission event listener.
@@ -88,13 +86,13 @@ git status
    ```
 5. Push your feature branch to GitHub:
    ```bash
-   git push -u origin feature/student-registration-NEU/22/23/CSC/2004
+   git push -u origin feature/student-registration-NEU/23/24/SEN/00492
    ```
 6. **Open a Pull Request on GitHub:**
-   - Go to your repository on GitHub.
+   - Go to your repository on GitHub: `https://github.com/yadaklinus/Group1_Management_System`
    - Click **Compare & pull request**.
-   - Set base: `main` ← compare: `feature/student-registration-...`.
-   - Title: `feat: Add student registration form (Member A - <Your Reg No>)`.
+   - Set base: `main` ← compare: `feature/student-registration-NEU/23/24/SEN/00492`.
+   - Title: `feat: Add student registration form (Member A - NEU/23/24/SEN/00492)`.
    - Description: Briefly describe the form fields added and form validation implemented.
    - Assign Team Leader (Member E) as reviewer.
 
@@ -111,7 +109,7 @@ git status
    ```
 2. Create your personal feature branch using your **Registration Number**:
    ```bash
-   git switch -c feature/student-records-table-NEU/22/23/CSC/2005
+   git switch -c feature/student-records-table-NEU/23/24/SEN/00547
    ```
 3. **Work on the feature:**
    - Open `index.html` and inspect `#records-section`. Verify the `<table>` element headers: `#`, `Matriculation No.`, `Full Name`, `Programme`, `Level`, `Date Added`, and `Actions`.
@@ -123,11 +121,11 @@ git status
    ```
 5. Push your branch to GitHub:
    ```bash
-   git push -u origin feature/student-records-table-NEU/22/23/CSC/2005
+   git push -u origin feature/student-records-table-NEU/23/24/SEN/00547
    ```
 6. **Open a Pull Request:**
-   - Go to GitHub and open PR to `main`.
-   - Title: `feat: Implement student records table (Member B - <Your Reg No>)`.
+   - Go to GitHub (`https://github.com/yadaklinus/Group1_Management_System`) and open PR to `main`.
+   - Title: `feat: Implement student records table (Member B - NEU/23/24/SEN/00547)`.
    - Request review from Team Leader.
 
 ---
@@ -143,7 +141,7 @@ git status
    ```
 2. Create your personal feature branch using your **Registration Number**:
    ```bash
-   git switch -c feature/table-styling-NEU/22/23/CSC/2006
+   git switch -c feature/table-styling-NEU/23/24/SEN/00409
    ```
 3. **Work on the feature:**
    - Open `style.css` and locate `/* 7. MEMBER C FEATURE: TABLE STYLING */`.
@@ -155,10 +153,10 @@ git status
    ```
 5. Push your branch to GitHub:
    ```bash
-   git push -u origin feature/table-styling-NEU/22/23/CSC/2006
+   git push -u origin feature/table-styling-NEU/23/24/SEN/00409
    ```
 6. **Open a Pull Request:**
-   - Title: `style: Add modern CSS styling to student records table (Member C - <Your Reg No>)`.
+   - Title: `style: Add modern CSS styling to student records table (Member C - NEU/23/24/SEN/00409)`.
    - Request review from Team Leader.
 
 ---
@@ -174,7 +172,7 @@ git status
    ```
 2. Create your personal feature branch using your **Registration Number**:
    ```bash
-   git switch -c feature/form-styling-NEU/22/23/CSC/2007
+   git switch -c feature/form-styling-NEU/23/24/SEN/00577
    ```
 3. **Work on the feature:**
    - Open `style.css` and locate `/* 6. MEMBER D FEATURE: FORM STYLING */`.
@@ -186,10 +184,10 @@ git status
    ```
 5. Push your branch to GitHub:
    ```bash
-   git push -u origin feature/form-styling-NEU/22/23/CSC/2007
+   git push -u origin feature/form-styling-NEU/23/24/SEN/00577
    ```
 6. **Open a Pull Request:**
-   - Title: `style: Add modern CSS styling to registration form (Member D - <Your Reg No>)`.
+   - Title: `style: Add modern CSS styling to registration form (Member D - NEU/23/24/SEN/00577)`.
    - Request review from Team Leader.
 
 ---
@@ -199,11 +197,11 @@ git status
 
 ### Responsibilities & Commands:
 1. **Initial Repository Setup (Question 1 & 2):**
-   - Create repo on GitHub/GitLab: `student-information-system-groupname`.
+   - Create repo on GitHub: `yadaklinus/Group1_Management_System`.
    - Add all members & course lecturer under **Settings > Collaborators**.
    - Add remote origin and push the initial codebase:
      ```bash
-     git remote add origin https://github.com/<username>/student-information-system-groupname.git
+     git remote add origin https://github.com/yadaklinus/Group1_Management_System.git
      git push -u origin main
      ```
 2. **Reviewing Pull Requests (Question 3d):**
@@ -215,14 +213,14 @@ git status
      4. Click **Merge pull request > Confirm merge**.
 3. **Documentation Feature Branch:**
    ```bash
-   git switch -c feature/project-docs-NEU/22/23/CSC/2008
+   git switch -c feature/project-docs-NEU/23/24/SEN/00442
    ```
    - Update `README.md` with team members' actual names, matric numbers, and final GitHub repository URL.
    - Stage and commit:
      ```bash
-     git add README.md CHECKLIST.md
-     git commit -m "docs: Update team contribution matrix and project setup instructions"
-     git push -u origin feature/project-docs-NEU/22/23/CSC/2008
+     git add README.md CHECKLIST.md MEMBER_ACTION_GUIDE.md
+     git commit -m "docs: Update team contribution matrix, checklist, and verification guide"
+     git push -u origin feature/project-docs-NEU/23/24/SEN/00442
      ```
    - Create and merge PR into `main`.
 4. **Coordinate Merge Conflict Demonstration (Question 4).**
@@ -236,7 +234,7 @@ git status
 ### Workflow Commands:
 1. Create branch:
    ```bash
-   git switch -c feature/readme-qa-NEU/22/23/CSC/2009
+   git switch -c feature/qa-docs-NEU/23/24/SEN/00588
    ```
 2. Test all interactions in Google Chrome, Microsoft Edge, and Firefox.
 3. Update `README.md` and `CHECKLIST.md` with test results and QA sign-off notes.
@@ -244,7 +242,7 @@ git status
    ```bash
    git add README.md CHECKLIST.md
    git commit -m "docs(qa): Verify cross-browser compatibility and complete lab submission checklist"
-   git push -u origin feature/readme-qa-NEU/22/23/CSC/2009
+   git push -u origin feature/qa-docs-NEU/23/24/SEN/00588
    ```
 5. Open PR to `main` and request review.
 
