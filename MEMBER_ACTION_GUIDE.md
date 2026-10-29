@@ -218,7 +218,7 @@ git status
    - Update `README.md` with team members' actual names, matric numbers, and final GitHub repository URL.
    - Stage and commit:
      ```bash
-     git add README.md CHECKLIST.md MEMBER_ACTION_GUIDE.md
+     git add README.md MEMBER_ACTION_GUIDE.md .gitignore
      git commit -m "docs: Update team contribution matrix, checklist, and verification guide"
      git push -u origin feature/project-docs-NEU/23/24/SEN/00442
      ```
@@ -240,7 +240,7 @@ git status
 3. Update `README.md` and `CHECKLIST.md` with test results and QA sign-off notes.
 4. Stage, commit, and push:
    ```bash
-   git add README.md CHECKLIST.md
+   git add README.md
    git commit -m "docs(qa): Verify cross-browser compatibility and complete lab submission checklist"
    git push -u origin feature/qa-docs-NEU/23/24/SEN/00588
    ```

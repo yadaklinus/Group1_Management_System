@@ -15,12 +15,12 @@ The **Student Information Management System (SIMS)** is a lightweight, responsiv
 
 ## 🗂️ 2. Repository File Structure
 ```text
-student-information-system-groupname/
+Group1_Management_System/
+├── .gitignore                  # Git ignore rules (OS files, IDE configs, temp logs)
 ├── index.html                  # Core semantic UI structure (Form + Table + Modal)
 ├── style.css                   # Custom CSS styling (Tokens, Glassmorphism, Theme)
 ├── script.js                   # Client-side dynamic logic, validation & storage
 ├── README.md                   # Project documentation & contribution report
-├── CHECKLIST.md                # Interactive assignment checklist (Questions 1 - 5)
 └── MEMBER_ACTION_GUIDE.md      # Step-by-step instructions for each group member
 ```
 
