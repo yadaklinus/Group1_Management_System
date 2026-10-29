@@ -116,3 +116,10 @@ When a conflict occurs during `git merge`, Git pauses the merge and inserts stan
 
 ## 📄 7. License & Academic Integrity
 This repository is developed strictly for **SCM Lab Test 1** academic evaluation. All team contributions are tracked and verifiable through Git history and GitHub Pull Request logs.
+
+---
+
+## 🎖️ 8. Team Leader Project Sign-Off
+- **Lead Coordinator:** `NEU/23/24/SEN/00577` (Member E)
+- **Status:** Architecture Initialized, Clean Project Tree Configured, Collaboration Matrix Verified
+- **Repository Health:** Clean working tree, modern responsive UI, branch protection & review workflow enforced.
