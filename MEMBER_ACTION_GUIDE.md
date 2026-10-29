@@ -55,12 +55,12 @@ git status
 
 | Role | Student Name | Matric / Reg Number | Assigned Feature | Target Branch Name |
 | :--- | :--- | :--- | :--- | :--- |
-| **Member A** | *[Name A]* | *[REG/01]* | Student Registration Form | `feature/student-registration-<REG/01>` |
-| **Member B** | *[Name B]* | *[REG/02]* | Student Records Table | `feature/student-records-table-<REG/02>` |
-| **Member C** | *[Name C]* | *[REG/03]* | Table CSS Styling | `feature/table-styling-<REG/03>` |
-| **Member D** | *[Name D]* | *[REG/04]* | Form CSS Styling | `feature/form-styling-<REG/04>` |
-| **Member E** | *[Name E]* *(Team Leader)* | *[REG/05]* | Docs, PR Review & Integration | `feature/project-docs-<REG/05>` |
-| **Member F** | *[Name F]* *(Optional 6th)* | *[REG/06]* | QA & README Updates | `feature/readme-qa-<REG/06>` |
+| **Member A** | Team Member A | `NEU/23/24/SEN/00492` | Student Registration Form | `feature/student-registration-NEU/23/24/SEN/00492` |
+| **Member B** | Team Member B | `NEU/23/24/SEN/00547` | Student Records Table | `feature/student-records-table-NEU/23/24/SEN/00547` |
+| **Member C** | Team Member C | `NEU/23/24/SEN/00409` | Table CSS Styling | `feature/table-styling-NEU/23/24/SEN/00409` |
+| **Member D** | Team Member D | `NEU/23/24/SEN/00577` | Form CSS Styling | `feature/form-styling-NEU/23/24/SEN/00577` |
+| **Member E** | Team Leader | `NEU/23/24/SEN/00442` | Docs, PR Review & Integration | `feature/project-docs-NEU/23/24/SEN/00442` |
+| **Member F** | QA & Verification | `NEU/23/24/SEN/00588` | QA, Testing & Checklist | `feature/qa-docs-NEU/23/24/SEN/00588` |
 
 ---
 

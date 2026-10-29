@@ -54,24 +54,26 @@
 *Rule: Each team member must work on a separate feature branch named using their Registration Number.*
 
 - [ ] **3.a Branch Creation (1 Mark)**
-  - [ ] **Member A:** `git switch -c feature/student-registration-<REG_NO>`
-  - [ ] **Member B:** `git switch -c feature/student-records-table-<REG_NO>`
-  - [ ] **Member C:** `git switch -c feature/table-styling-<REG_NO>`
-  - [ ] **Member D:** `git switch -c feature/form-styling-<REG_NO>`
-  - [ ] **Member E (Team Leader):** `git switch -c feature/project-docs-<REG_NO>`
-  - [ ] *(Optional 6th Member):* `git switch -c feature/readme-updates-<REG_NO>`
+  - [ ] **Member A:** `git switch -c feature/student-registration-NEU/23/24/SEN/00492`
+  - [ ] **Member B:** `git switch -c feature/student-records-table-NEU/23/24/SEN/00547`
+  - [ ] **Member C:** `git switch -c feature/table-styling-NEU/23/24/SEN/00409`
+  - [ ] **Member D:** `git switch -c feature/form-styling-NEU/23/24/SEN/00577`
+  - [ ] **Member E (Team Leader):** `git switch -c feature/project-docs-NEU/23/24/SEN/00442`
+  - [ ] **Member F (QA & Verification):** `git switch -c feature/qa-docs-NEU/23/24/SEN/00588`
 - [ ] **3.b Implementation & Meaningful Commits (2 Marks)**
   - [ ] Member A commits registration form markup/validation.
   - [ ] Member B commits student records table display logic.
   - [ ] Member C commits table CSS styles, hover effects, and responsive layout.
   - [ ] Member D commits registration form CSS styling, input focus effects, buttons.
   - [ ] Member E commits project documentation, integration notes, and review logs.
+  - [ ] Member F commits QA verification and cross-browser test notes.
 - [ ] **3.c Push Feature Branches to GitHub (1 Mark)**
-  - [ ] Member A pushed branch to remote: `git push -u origin <branch-name>`
-  - [ ] Member B pushed branch to remote: `git push -u origin <branch-name>`
-  - [ ] Member C pushed branch to remote: `git push -u origin <branch-name>`
-  - [ ] Member D pushed branch to remote: `git push -u origin <branch-name>`
-  - [ ] Member E pushed branch to remote: `git push -u origin <branch-name>`
+  - [ ] Member A pushed branch to remote: `git push -u origin feature/student-registration-NEU/23/24/SEN/00492`
+  - [ ] Member B pushed branch to remote: `git push -u origin feature/student-records-table-NEU/23/24/SEN/00547`
+  - [ ] Member C pushed branch to remote: `git push -u origin feature/table-styling-NEU/23/24/SEN/00409`
+  - [ ] Member D pushed branch to remote: `git push -u origin feature/form-styling-NEU/23/24/SEN/00577`
+  - [ ] Member E pushed branch to remote: `git push -u origin feature/project-docs-NEU/23/24/SEN/00442`
+  - [ ] Member F pushed branch to remote: `git push -u origin feature/qa-docs-NEU/23/24/SEN/00588`
 - [ ] **3.d Pull Requests & Code Reviews (1 Mark)**
   - [ ] Member A opens PR to `main` with detailed description.
   - [ ] Member B opens PR to `main` with detailed description.
