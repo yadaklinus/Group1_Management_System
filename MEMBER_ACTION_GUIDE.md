@@ -57,8 +57,8 @@ git status
 | **Member A** | Team Member A | `NEU/23/24/SEN/00492` | Student Registration Form | `feature/student-registration-NEU/23/24/SEN/00492` |
 | **Member B** | Team Member B | `NEU/23/24/SEN/00547` | Student Records Table | `feature/student-records-table-NEU/23/24/SEN/00547` |
 | **Member C** | Team Member C | `NEU/23/24/SEN/00409` | Table CSS Styling | `feature/table-styling-NEU/23/24/SEN/00409` |
-| **Member D** | Team Member D | `NEU/23/24/SEN/00577` | Form CSS Styling | `feature/form-styling-NEU/23/24/SEN/00577` |
-| **Member E** | Team Leader | `NEU/23/24/SEN/00442` | Docs, PR Review & Integration | `feature/project-docs-NEU/23/24/SEN/00442` |
+| **Member D** | Team Member D | `NEU/23/24/SEN/00577` | Form CSS Styling | `feature/form-styling-NEU/23/24/SEN/00442` |
+| **Member E** | Team Leader | `NEU/23/24/SEN/00442` | Docs, PR Review & Integration | `feature/project-docs-NEU/23/24/SEN/00577` |
 | **Member F** | QA & Verification | `NEU/23/24/SEN/00588` | QA, Testing & Checklist | `feature/qa-docs-NEU/23/24/SEN/00588` |
 
 ---
@@ -172,7 +172,7 @@ git status
    ```
 2. Create your personal feature branch using your **Registration Number**:
    ```bash
-   git switch -c feature/form-styling-NEU/23/24/SEN/00577
+   git switch -c feature/form-styling-NEU/23/24/SEN/00442
    ```
 3. **Work on the feature:**
    - Open `style.css` and locate `/* 6. MEMBER D FEATURE: FORM STYLING */`.
@@ -184,10 +184,10 @@ git status
    ```
 5. Push your branch to GitHub:
    ```bash
-   git push -u origin feature/form-styling-NEU/23/24/SEN/00577
+   git push -u origin feature/form-styling-NEU/23/24/SEN/00442
    ```
 6. **Open a Pull Request:**
-   - Title: `style: Add modern CSS styling to registration form (Member D - NEU/23/24/SEN/00577)`.
+   - Title: `style: Add modern CSS styling to registration form (Member D - NEU/23/24/SEN/00442)`.
    - Request review from Team Leader.
 
 ---
@@ -213,14 +213,14 @@ git status
      4. Click **Merge pull request > Confirm merge**.
 3. **Documentation Feature Branch:**
    ```bash
-   git switch -c feature/project-docs-NEU/23/24/SEN/00442
+   git switch -c feature/project-docs-NEU/23/24/SEN/00577
    ```
    - Update `README.md` with team members' actual names, matric numbers, and final GitHub repository URL.
    - Stage and commit:
      ```bash
      git add README.md MEMBER_ACTION_GUIDE.md .gitignore
      git commit -m "docs: Update team contribution matrix, checklist, and verification guide"
-     git push -u origin feature/project-docs-NEU/23/24/SEN/00442
+     git push -u origin feature/project-docs-NEU/23/24/SEN/00577
      ```
    - Create and merge PR into `main`.
 4. **Coordinate Merge Conflict Demonstration (Question 4).**

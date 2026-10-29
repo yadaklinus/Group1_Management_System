@@ -33,9 +33,9 @@ Group1_Management_System/
 | **Member A** | Student Registration Form | `feature/student-registration-NEU/23/24/SEN/00492` | Implemented registration form inputs (Name, Matric No, Programme) and JavaScript validation. |
 | **Member B** | Student Records Table | `feature/student-records-table-NEU/23/24/SEN/00547` | Developed responsive records table, dynamic rendering, and search filter integration. |
 | **Member C** | Table CSS Styling | `feature/table-styling-NEU/23/24/SEN/00409` | Designed table glassmorphism styling, hover rows, status badges, and mobile responsiveness. |
-| **Member D** | Form CSS Styling | `feature/form-styling-NEU/23/24/SEN/00577` | Styled input fields, focus glow rings, custom select arrows, error text, and action buttons. |
-| **Member E (Team Leader)** | Docs, Coordination & Merge Review | `feature/project-docs-NEU/23/24/SEN/00442` | Project scaffolding, README documentation, PR code reviews, and conflict resolution integration. |
-| **Member F (QA & Verification)** | QA, Testing & Checklist Verification | `feature/qa-docs-NEU/23/24/SEN/00588` | Cross-browser testing, verification of submission checklist, and documentation updates. |
+| **Member D** | Form CSS Styling | `feature/form-styling-NEU/23/24/SEN/00442` | Styled input fields, focus glow rings, custom select arrows, error text, and action buttons. |
+| **Member E (Team Leader)** | Docs, Coordination & Merge Review | `feature/project-docs-NEU/23/24/SEN/00577` | Project scaffolding, README documentation, PR code reviews, and conflict resolution integration. |
+| **Member F (QA & Verification)** | QA, Testing & Verification | `feature/qa-docs-NEU/23/24/SEN/00588` | Cross-browser testing, verification of submission checklist, and documentation updates. |
 
 ---
 
